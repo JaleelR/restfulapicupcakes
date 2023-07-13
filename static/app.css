@@ -1,0 +1,55 @@
+/* 
+<!-- HTML !-->
+<button class="success" role="button">Button 11</button> */
+
+/* CSS */
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #fbfafa;
+  background: rgb(28, 215, 37);
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.success:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.success:hover {
+background-color: rgb(3, 156, 6);
+}
+
+
+
+
+.danger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #fbfafa;
+    background: rgb(220, 10, 6);
+    border: none;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .danger:focus {
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+  }
+  
+  .danger:hover {
+  background-color: rgb(142, 3, 3);
+  }
+
+
+
+  
